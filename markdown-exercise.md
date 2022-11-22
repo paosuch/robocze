@@ -121,6 +121,6 @@ kliknij [tu][2], zeby otworzyc **instagram**
 
 ## Tabela
 
-Naglowek 1| Naglowek 2| Naglowek 3
-|-|-|-|
-Tekst 1| Tekst 2| Tekst 3
+Naglowek 1|Naglowek 2|Naglowek 3|Naglowek 4
+:-:|:-:|:-:|:-:
+Tekst 1|Tekst 2|Tekst 3|Tekst 4
