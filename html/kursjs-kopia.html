@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurs Javascript - Narzędzia</title>
 </head>
+<body>
     <header>
         <h1>Narzędzia</h1>
     </header>
@@ -16,19 +17,18 @@
             <li><a href="#linter"> Linter</a></li>
         </ol>
     </nav>
-<body>
     <p>Poniżej kilka narzędzi, które przydadzą nam się w czasie zabaw z Javascript.</p>
     <h2><p id="edytor">Edytor tekstu / IDE</p></h2>
-        <img src="https://kursjs.pl/kurs/wstep/edytory.jpg">
+        <img src="https://kursjs.pl/kurs/wstep/edytory.jpg" alt="zdjecie">
     <p>Jeżeli chodzi o edytor tekstu, to Windowsowy Notatnik zostawmy sobie w spokoju. Nas interesują edytory z kolorowaniem kodu, zwijaniem fragmentów kodu i ewentualnymi podpowiedziami. Warto przetestować kilka takich programów, by wybrać swój ulubiony.
         <br>
     <p>W chwili pisania tego tekstu najpopularniejszymi są:</p>
-           <ul>
-                <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-                <li><a href="https://www.jetbrains.com/webstorm/">Webstorm / PHPStorm</a></li>
-                <li><a href="https://atom.io/">Atom</a></li>
-                <li><a href="http://www.sublimetext.com/3">Sublime Text 3</a></li>
-           </ul> 
+    <ul>
+         <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+         <li><a href="https://www.jetbrains.com/webstorm/">Webstorm / PHPStorm</a></li>
+         <li><a href="https://atom.io/">Atom</a></li>
+         <li><a href="http://www.sublimetext.com/3">Sublime Text 3</a></li>
+    </ul> 
     <p>Który wybrać?</p>
     <p>Webstorm jest jednym z najlepszych narzędzi w swojej branży. To taki Photoshop dla programistów. Niestety jego subskrypcja kosztuje. Jeżeli interesuje nas coś darmowego, Visual Studio Code mocno ostatnio zyskał na popularności. Ja używam właśnie tych dwóch.</p>
     <p>Poza nimi Atom, Bracket czy Sublime Text też są dobrym wyborem.</p>
@@ -39,19 +39,20 @@
     <p>Na stronie <a href="http://jsben.ch/index">http://jsben.ch/index</a> będziemy mogli przetestować szybkość różnych wersji naszych skryptów.</p>       
     <p>Język JavaScript, podobnie jak CSS charakteryzują się tym, że jest różnie wspierany na różnych przeglądarkach. <br>Aby sprawdzić jak dana funkcjonalność jest wspierana na danej przeglądarce, możemy posłużyć się stronami <a href="http://caniuse.com">http://caniuse.com</a>, <a href="http://kangax.github.io/compat-table/es2016plus/">http://kangax.github.io/compat-table/es2016plus/</a>", lub dokumentacją <a href="https://developer.mozilla.org/pl/">MDN</a> która częstokroć na końcu tematów pokazuje wsparcie danej funkcjonalności.</p>       
     <p>Jako, że frontend nie kończy się na Javascripcie, warto też regularnie przeglądać niektóre z poniższych stron:</p>
-            <ul>
-                <li><a href="https://dev.to/">https://dev.to/</a></li>
-                <li><a href="http://tympanus.net/codrops/">http://tympanus.net/codrops/</a></li>
-                <li><a href="https://www.smashingmagazine.com/">https://www.smashingmagazine.com/</a></li>
-                <li><a href="https://scotch.io/">https://scotch.io/</a></li>
-                <li><a href="http://grafmag.pl/">http://grafmag.pl/</a></li>
-                <li><a href="https://css-tricks.com/">https://css-tricks.com/</a></li>
-                <li><a href="http://alistapart.com/">http://alistapart.com/</a></li>
-                <li><a href="https://davidwalsh.name/">https://davidwalsh.name/</li>
-            </ul>       
+    <ul>
+        <li><a href="https://dev.to/">https://dev.to/</a></li>
+        <li><a href="http://tympanus.net/codrops/">http://tympanus.net/codrops/</a></li>
+        <li><a href="https://www.smashingmagazine.com/">https://www.smashingmagazine.com/</a></li>
+        <li><a href="https://scotch.io/">https://scotch.io/</a></li>
+        <li><a href="http://grafmag.pl/">http://grafmag.pl/</a></li>
+        <li><a href="https://css-tricks.com/">https://css-tricks.com/</a></li>
+        <li><a href="http://alistapart.com/">http://alistapart.com/</a></li>
+        <li><a href="https://davidwalsh.name/">https://davidwalsh.name/</li>
+    </ul>       
     <p>Poza tym polecam też dodać sobie do przeglądarki 2 dodatki: <a href="https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=PL">muzli2</a> i <a href="http://daily.dev/">daily.dev</a>. Oba służą do serwowania nowości gdy otwierasz nową kartę w przeglądarce. Dość ważna rzecz, gdy chcesz być na bieżąco z frontendem.</p>
     <p>Poza powyższymi warto też przejrzeć sobie zestawienia narzędzi na stronach <a href="https://www.bookmarks.design/">https://www.bookmarks.design/</a>, <a href="https://undesign.learn.uno/">https://undesign.learn.uno/</a>, <a href="http://frontendtools.com/">http://frontendtools.com/</a> czy <a href="https://toolsdb.dev/">https://toolsdb.dev/</a>. Szczególnie tą pierwszą polecam przejrzeć.</p>
-    <h2><p id=linter>Linter</p></h2>
+    <h2><p id="linter">Linter</p></h2>
+    <div>
     <p>W czasie pisania kodu przydało by się by ktoś lub coś go analizowało i wskazywało nam potencjalne pomyłki lub rzeczy możliwe do poprawy (np. formatowanie, czy w danym miejscu potrzebny jest średnik, że użyliśmy tu i tu innych cudzysłowów itp.). Można zaopatrzyć się w <a href="https://i.pinimg.com/736x/4c/15/94/4c1594ab30175cfa31eb8da4ae706127.jpg">kota</a>, można też w specjalne do tego celu narzędzia.</p>
     <p>Edytory, które wymieniłem powyżej całkiem dobrze wskazują potencjalne pomyłki. W domyślnej konfiguracji WebStorm zdecydowanie robi to najlepiej, natomiast Visual Studio Code i podobne radzą sobie ciut gorzej ale w codziennej pracy niczemu to nie przeszkadza i w zasadzie rozchodzi się o przyzwyczajenie.</p>
     <p>Jeżeli chcesz jeszcze bardziej wymusić na tych narzędziach kontrolę twojego kodu, możesz doinstalować sobie odpowiednie lintery, które właśnie służą do sprawdzania naszego kodu. Na chwilę obecną najpopularniejszymi są <a href="https://eslint.org/demo">ESLint</a>, <a href="http://jslint.com/">JSLint</a> i <a href="https://jshint.com/">JSHint</a>.</p>        
@@ -59,7 +60,7 @@
     <p>Domyślnie lintera takiego używa się bezpośrednio z terminalu, gdzie po wpisaniu odpowiedniej komendy wypisuje w nim listę rzeczy, które powinieneś w swoim kodzie poprawić. Takie użycie nie jest w żaden sposób wygodne i mija się z sensem. Dlatego po zainstalowaniu i stworzeniu pliku konfiguracyjnego, możesz włączyć lintera w twoim edytorze. Instrukcję dla Webstorm znajdziesz tutaj: <a href="https://www.jetbrains.com/help/webstorm/eslint.html#ws_js_eslint_activate">1</a>. Dla Visual Studio Code musisz doinstalować sobie odpowiedni dodatek <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">2</a>).</p>
     <p>Dzięki temu stosowne powiadomienia będziesz miał zaznaczone bezpośrednio w kodzie (tak jak resztę błędów) i nie będziesz musiał wpisywać w terminalu dodatkowych komend.</p>
     <p>Zdaję sobie sprawę, że z powyższego opisu nie wszystko może być jasne. Takie są niestety uroki naszej branży - właśnie wsiadasz do super ekspresu, który pędzi coraz szybciej. Daj sobie czas, skup się na podstawach. Gdy przerobisz w końcu dział o <a href="https://kursjs.pl/kurs/es6/node">Node</a>, wróć do powyższych tematów, w przeciwnym razie będziesz robił coś, czego nie do końca będziesz rozumiał.</p>
-  
+    </div>    
     <footer>
         Wszelkie prawa zastrzeżone. Jeżeli chcesz używać jakiejś części tego kursu, skontaktuj się z <a href="https://kursjs.pl/kurs/autor">autorem</a>.<br>
         Aha - i ta strona korzysta z <a href="https://kursjs.pl/kurs/polityka-prywatnosci">ciasteczek</a>.<br>
